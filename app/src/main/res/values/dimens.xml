@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_24">24sp</dimen>
+    <dimen name="width_100">100dp</dimen>
+    <dimen name="corner_10">10dp</dimen>
+    <dimen name="size_26">26sp</dimen>
+</resources>

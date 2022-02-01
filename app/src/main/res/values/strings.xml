@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyTimerTest</string>
+    <string name="contador_regresivo">Contador regresivo</string>
+    <string name="minutes">Minutos</string>
+    <string name="seconds">Segundos</string>
+    <string name="start">Start</string>
 </resources>
