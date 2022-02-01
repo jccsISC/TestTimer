@@ -24,8 +24,10 @@ class MainActivity : AppCompatActivity() {
                 if (it != "00.00") {
                     tvResult.text = it
                     btnStart.isEnabled = false
+                    btnCancel.isEnabled = true
                 }else {
                     btnStart.isEnabled = true
+                    btnCancel.isEnabled = false
                     tvResult.text = "00.00"
                     tieMinutes.setText("0")
                     tieSeconds.setText("0")

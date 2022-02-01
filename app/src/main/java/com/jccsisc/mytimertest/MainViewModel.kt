@@ -42,4 +42,8 @@ class MainViewModel: ViewModel() {
         }
     }
 
+    fun cancelTimer() {
+        repository.cancelTimer(_result)
+    }
+
 }

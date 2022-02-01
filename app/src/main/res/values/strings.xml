@@ -4,4 +4,5 @@
     <string name="minutes">Minutos</string>
     <string name="seconds">Segundos</string>
     <string name="start">Start</string>
+    <string name="cancel">Cancelar</string>
 </resources>

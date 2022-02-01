@@ -41,6 +41,13 @@ class Repository {
 
         }.start()
     }
+
+    fun cancelTimer(result: MutableLiveData<String>?) {
+        if (::countDownTimer.isInitialized) {
+            countDownTimer.cancel()
+            result?.postValue("00.00")
+        }
+    }
 }
 
 fun Long.formatHr() = run {
